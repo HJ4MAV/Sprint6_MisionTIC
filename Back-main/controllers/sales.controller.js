@@ -43,10 +43,10 @@ const getSales = async (req, res) => {
 }
 
 const createSale = async (req, res) => {
-    //verificando que si hay errores en los parametros de la solictud
+    
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-        //si existen errores damos una respuesta erronea
+        
         return res.status(400).json({
             error: {
                 code: 404,
