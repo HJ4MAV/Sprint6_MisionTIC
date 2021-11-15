@@ -1,7 +1,7 @@
 import axios from "axios";
 import jwtDecode from "jwt-decode";
 
-const authUrl = "https://backendmisionticsprint6.herokuapp.com//auth"; 
+const authUrl = "https://backendmisionticsprint6.herokuapp.com/auth"; 
 
 
 export const authHeaders = {
