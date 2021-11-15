@@ -25,7 +25,7 @@ require('dotenv').config();
 const port = process.env.PORT;
 
 app.listen(port, () => {
-    console.log(`server listen http://localhost:${port}`)
+    console.log(`server listen backendmisionticsprint6.herokuapp.com:${port}`)
 })
 
 app.get('/', (req, res) => {
