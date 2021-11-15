@@ -1,7 +1,7 @@
 import axios from "axios";
 import { authHeaders } from "./AuthService";
 
-const productsUrl = "https://peaceful-peak-03211.herokuapp.com/productos"; 
+const productsUrl = "https://backendmisionticsprint6.herokuapp.com//productos"; 
 
 
 export const getProduct = async (id) => {
