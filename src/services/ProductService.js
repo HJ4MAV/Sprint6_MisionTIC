@@ -1,7 +1,7 @@
 import axios from "axios";
 import { authHeaders } from "./AuthService";
 
-const productsUrl = "https://sprint6misiontic.herokuapp.com/productos"; 
+const productsUrl = "https://backendmisionticsprint6.herokuapp.com/productos"; 
 
 
 export const getProduct = async (id) => {
