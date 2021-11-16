@@ -8,7 +8,7 @@ const verifyToken = async (req, res, next) => {
         return res.status(403).json({
             error: {
                 code: 403,
-                msg: 'Usuaro no autorizado'
+                msg: 'Usuario no autorizado'
             }
         });
     }
@@ -20,7 +20,7 @@ const verifyToken = async (req, res, next) => {
         return res.status(403).json({
             error: {
                 code: 403,
-                msg: 'Usuaro no autorizado'
+                msg: 'Usuario no autorizado'
             }
         });
     }

@@ -133,7 +133,7 @@ const deleteSale = async (req, res) => {
             res.status(404).json({
                 error: {
                     code: 404,
-                    message: "Saleo no encontrado"
+                    message: "Sale no encontrado"
                 }
             })
         }
